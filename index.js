@@ -1,4 +1,11 @@
 // requirements
+// import inquirer from "inquirer";
+// import fs from "fs";
+// import util from "util";
+// import Manager from "./lib/Manager.js";
+// import Engineer from "./lib/Engineer.js";
+// import Intern from "./lib/Intern.js";
+// import html from "./src/htmlTemp.js";
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
@@ -16,8 +23,6 @@ let teamArray = [];
 let teamString = ``;
 
 console.clear();
-console.log("---------------------------------------------");
-console.log("Team Portfolio Generator by nosremetnarg")
 
 // Main function to run application
 async function main() {
