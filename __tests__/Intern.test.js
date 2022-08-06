@@ -1,4 +1,4 @@
-const Intern = require("../lib/Intern");
+const Intern = require("../lib/Intern.js");
 
 test("setting school via the constructor argument", () => {
     const testValue = "University of North Carolina at Wilmington";
